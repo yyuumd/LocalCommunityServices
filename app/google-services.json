@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "641601394613",
+    "firebase_url": "https://localcommunityservice.firebaseio.com",
+    "project_id": "localcommunityservice",
+    "storage_bucket": "localcommunityservice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641601394613:android:6a7e852d1c645d57",
+        "android_client_info": {
+          "package_name": "c.group24.localcommunityservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641601394613-7t41q072u77fh3sru3ev1ddqif91cjn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrS3g2y4C9oqnheR14w5RYmRqPte4nlxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

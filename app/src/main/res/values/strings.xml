@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LocalCommunityServices</string>
+    <string name="email">Email</string>
+    <string name="pwd">Password</string>
+    <string name="name">Name</string>
+    <string name="verify" >"Please Verify Your Email address! "</string>
+    <string name="Login">Go Login</string>
+</resources>
