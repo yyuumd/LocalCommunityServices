@@ -54,7 +54,9 @@ public class Login extends Activity {
                                     int sp = FirebaseAuth.getInstance().getCurrentUser().getDisplayName().indexOf(':');
                                     String identity = FirebaseAuth.getInstance().getCurrentUser().getDisplayName().substring(0,sp);
                                     if(identity.equals("Student")){
-                                        Intent goToStudentPg = new Intent();
+                                        Intent goToStudentPg = new Intent(Login.this, StudentMainActivity.class);
+                                        //startActivity(goToStudentPg);
+
                                     }else{
                                         Intent goToOrg = new Intent();
                                     }

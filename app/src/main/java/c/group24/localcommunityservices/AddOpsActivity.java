@@ -1,4 +1,4 @@
-package group24.localcommunityservice;
+package c.group24.localcommunityservices;
 
 import android.content.Intent;
 import android.os.Bundle;
