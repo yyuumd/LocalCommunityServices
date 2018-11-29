@@ -104,6 +104,10 @@ public class StudentMainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_pastevents) {
 
+
+        } else if(id == R.id.nav_futureevents) {
+            fragment = new OpportunityFragment();
+            getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
