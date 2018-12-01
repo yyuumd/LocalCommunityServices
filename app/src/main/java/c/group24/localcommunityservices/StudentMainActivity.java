@@ -38,7 +38,7 @@ public class StudentMainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         //Instantiate the opportunity fragment
-        fragment = new OpportunityFragment();
+        //fragment = new OpportunityFragment();
         getSupportFragmentManager().beginTransaction().add(R.id.container, fragment).commit();
 
 
@@ -106,7 +106,7 @@ public class StudentMainActivity extends AppCompatActivity
 
 
         } else if(id == R.id.nav_futureevents) {
-            fragment = new OpportunityFragment();
+            //fragment = new OpportunityFragment();
             getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();
         }
 
